@@ -57,6 +57,72 @@
 }
 
 
+.footer {
+    background-color: #14213d;
+    color: white;
+    padding: 50px 30px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-box {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-box h2 {
+    color: #fca311;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.footer-box h3 {
+    color: #fca311;
+    font-size: 19px;
+    margin-bottom: 18px;
+}
+
+.footer-box p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.footer-box ul {
+    list-style: none;
+}
+
+.footer-box ul li {
+    margin-bottom: 12px;
+}
+
+.footer-box ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-box ul li a:hover {
+    color: #fca311;
+    padding-left: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #526078;
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
     </style>
 </head>
 <body>
@@ -77,7 +143,55 @@
 
     <h1> this is my first heading</h1>
     <img src=london.JFIF>
-    
+  
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h2>MyWebsite</h2>
+            <p>
+                Welcome to our website. We provide quality
+                services and useful information to help
+                you grow and succeed.
+            </p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h3>Our Services</h3>
+            <ul>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">SEO Services</a></li>
+                <li><a href="#">Graphic Design</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact Us</h3>
+            <p>Email: info@mywebsite.com</p>
+            <p>Phone: +91 9876543210</p>
+            <p>Address: India</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 MyWebsite. All Rights Reserved.</p>
+    </div>
+
+</footer>
+  
 </body>
 
 </html>
